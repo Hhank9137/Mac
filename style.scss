@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    div.p{
+        div.title_1, div.title_2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            background-color: #283B42;
+            z-index: -1;
+            opacity: .8;
+            h1{
+                color:#D1DDDB;
+            }
+        }
+    }
+}

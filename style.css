@@ -1,8 +1,15 @@
-h1{
-    text-align: center;
-    color: blueviolet;
-    font-size: smaller;
+body {
+  box-sizing: border-box;
 }
-.project button a{
-    text-decoration: none;
+body div.p div.title_1, body div.p div.title_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #283B42;
+  z-index: -1;
+  opacity: 0.8;
 }
+body div.p div.title_1 h1, body div.p div.title_2 h1 {
+  color: #D1DDDB;
+}/*# sourceMappingURL=style.css.map */
